@@ -1,0 +1,37 @@
+body {
+	background-color: #E1E7F3;
+	color: #00A697;
+	margin: 40px 0 0;
+	font-size: 18px;
+	font-family: helvetica;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+.name {
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.links {
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+}
+a {
+	cursor: pointer !important;
+	color: #00A697;
+	text-decoration: none;
+}
+a:hover {
+	font-weight: bold !important;
+}
+main {
+	margin-top: 100px;
+}
