@@ -27,7 +27,7 @@ header {
 a {
 	cursor: pointer !important;
 	color: #00A697;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 a:hover {
 	font-weight: bold !important;
