@@ -40,10 +40,10 @@ main {
 	font-size: 62px;
 }
 .photos {
-	display: flex;
-	justify-content: space-around;
+	/*display: flex;*/
+	/*justify-content: space-around;*/
 	margin-top: 100px;
-	flex-flow: row wrap;
+	/*flex-flow: row wrap;*/
 }
 .selfie {
 	height: 200px;
