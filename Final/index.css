@@ -1,0 +1,123 @@
+body {
+	background-color: #ffffff;
+	color: #000000;
+	margin: 0px 0 0;
+	font-size: 24px;
+	font-family: helvetica, sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin: none;
+}
+
+.h1 {
+	position: absolute;
+	z-index: 2;
+}
+
+.h4 {
+	position:center;
+		z-index: 2;
+}
+
+.normal {
+	font-weight: normal;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header {
+    padding: 0.5em;
+    color: black;
+    font: helvetica;
+    background-color: white;
+    font-size: 24pt;
+    clear: center;
+    text-align: center;
+    display: flex;
+	justify-content: space-between;
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+.name {
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.links {
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+}
+a {
+	cursor: pointer !important;
+	color: #00A697;
+	text-decoration: none !important;
+}
+a:hover {
+	font-weight: bold !important;
+}
+main {
+	margin-top: 50px;
+}
+
+}
+.photos {
+	/*display: flex;*/
+	/*justify-content: space-around;*/
+	margin-top: 15px;
+	/*flex-flow: row wrap;*/
+}
+/*.selfie {
+	height: 200px;
+	width: 200px;
+	border-radius: 8px;
+}
+*/
+
+.myContainer {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	max-width:100%;
+	z-index: -1;
+}
+
+.myButtons {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	max-width:100%;
+	z-index: 2;
+}
+
+#about {
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    font-size: 32px;
+    color: white;
+    font-family: "Segoe UI",Arial,sans-serif;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+#about.show {
+	opacity: 1
+}
+}

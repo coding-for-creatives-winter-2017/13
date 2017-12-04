@@ -1,20 +1,17 @@
-var x = 0
-var speed = 3
+var slideIndex = 1;
+showDivs(slideIndex);
 
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
 
-function setup() {
-  createCanvas(600, 400);
-
-function draw() {
-  background (30);
-  strokeWeight (4);
-  noFill();
-  ellipse(x,200,100,100)
-  	
-  	 if (x > width )  {
-      speed = -3;
-  	}
-
-    x = x + speed;
-
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
 }
